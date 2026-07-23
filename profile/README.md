@@ -1,23 +1,58 @@
-# 🚀 Brndr
+# Welcome to Brndr 🎓🚀
 
-> [cite_start]**Real connections for university students — built without predatory algorithms[cite: 37, 38, 44].**
+> **Student-first matchmaking platform connecting university students in real life — built on trust, transparency, and real-world interactions.**
 
-[cite_start]Brndr is a modern student-first matchmaking platform designed to move interactions from screens into real-world encounters[cite: 3, 37, 41, 44]. [cite_start]Built by students from FIT VUT [cite: 6, 39][cite_start], Brndr eliminates profit-driven swiping loops [cite: 1, 38, 45] [cite_start]in favor of transparent, fair connections and safe communication[cite: 7, 38].
+---
+
+### 💡 What is Brndr?
+
+**Brndr** is a non-profit, open-minded matchmaking progressive web app (PWA) designed specifically for university students. Unlike commercial dating platforms optimized for user retention and monetization through exploitative algorithms, Brndr focuses on **genuine real-life connections, campus community building, and user privacy**.
+
+We replace hidden popularity ratings (Elo scores) and artificial swipe limits with transparent interest-based matchmaking, verified student identity, and secure end-to-end encrypted messaging.
 
 ---
 
 ### ✨ Key Features
 
-* [cite_start]🎓 **Verified Student Identity:** Restricted exclusively to verified university email addresses [cite: 3, 11] [cite_start](with optional ISIC photo verification [cite: 30, 58]) to minimize fake accounts[cite: 3, 13, 18].
-* [cite_start]⚖️ **Fair & Transparent Matchmaking:** Driven by shared interests and controlled randomness [cite: 21, 59][cite_start]—no hidden popularity ratings, hidden scaling, or manipulative loops[cite: 7, 16, 19, 38, 59].
-* [cite_start]🔒 **End-to-End Encryption (E2EE):** Secure chat architecture where messages are encrypted locally and cannot be read on the server side[cite: 4, 31, 56].
-* [cite_start]🍻 **Online to Offline:** Built to facilitate real-life meetups (speed dating, thematic events, safe venues) [cite: 3, 12, 33, 41][cite_start], so users spend less time on their screens and more time connecting in real life[cite: 37, 45].
+- 🎓 **Verified University Community**: Access is strictly limited to verified university e-mail addresses (`@vutbr.cz` / university domain) with optional ISIC photo verification to eliminate bots and fake profiles.
+- ⚖️ **Fair & Transparent Matchmaking**: Search profiles via flexible filters or swipe through interest-matched profiles enhanced with controlled randomness. **Zero hidden popularity scoring or artificial throttling.**
+- 🔐 **End-to-End Encrypted Chat (E2EE)**: Complete messaging privacy using symmetric session keys wrapped with recipients' public keys. Server-side zero-knowledge architecture.
+- 📲 **Cross-Platform PWA**: Built with React & Tailwind CSS for a seamless, native-like experience on any desktop or mobile screen without store barriers.
+- ☕ **Online to Offline Focus**: Designed to facilitate real-world meetups at verified local spots, campus events, speed-dating sessions, and academic project team formation.
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & Architecture
 
-* [cite_start]**Frontend:** React, Progressive Web App (PWA) [cite: 10, 54]
-* [cite_start]**Backend:** Go [cite: 54]
-* [cite_start]**Data Transport:** Protobuf [cite: 55]
-* [cite_start]**Security:** End-to-End Encrypted Messaging (E2EE) with separate identity and session key management [cite: 4, 31, 56]
+| Layer | Technologies & Tools |
+| :--- | :--- |
+| **Frontend** | React, PWA (Progressive Web App), Tailwind CSS, Swiper.js, TypeScript |
+| **Backend & API** | Go (Golang), Protobuf, gRPC / REST API |
+| **Security & Privacy** | End-to-End Encryption (E2EE), Key Derivation & Exchange, School E-mail Validation |
+| **UI/UX Design** | Penpot (Open-source Flex Layout design system) |
+
+---
+
+### 🎯 Project Milestones & Progress
+
+- 🥇 **IdeaChallenge@FIT 2026**: Initial project validation, concept design & awarded top idea.
+- 🔬 **Excel@FIT 2026**: Architecture proposal presentation (PWA, E2EE chat protocol, Protobuf schema).
+- 🚀 **BoosterChallenge VUT 2026**: Summer MVP development sprint & pilot launch at FIT VUT campus.
+
+---
+
+### 👥 The Team & Community
+
+Developed by students from the **Faculty of Information Technology, Brno University of Technology (FIT VUT)** and active members of **Studentská unie FIT (SU FIT)**:
+
+- **Petr Obšel** (`xobselp00@vutbr.cz`) — Team Lead & Software Engineer
+- **Daniel Pelánek** (`xpeland00@vutbr.cz`) — Co-Founder & Software Engineer
+
+---
+
+### 🤝 Ethical Commitment
+
+Brndr is engineered with strict ethical principles:
+1. **No Algorithmic Exploitation**: No artificial retention tricks or hidden rating tiers.
+2. **Privacy First**: Messages are unreadable on the server; user data is handled strictly for community verification.
+3. **Open Community**: Built to support student life, campus networking, and meaningful relationships.
